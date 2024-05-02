@@ -3,7 +3,7 @@ function UseStateHook(){
     const [count, setCount]=useState(0)
     
     function Decreament(){
-        setCount(count=count-1)
+        setCount(count-1)
     }
 
     return(

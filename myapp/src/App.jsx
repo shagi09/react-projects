@@ -14,12 +14,12 @@ import CourseContext from "./components/CourseContext"
 import UseEffect from "./components/useEffect"
 import Timer from "./components/TIMER"
 import { useEffect } from "react"
-import { useState } from "react"
 import Fetch from "./components/fetch"
 import UseCallBack from "./hooks/usecallback"
 import UseRef from "./hooks/useref"
 import UseReducer from "./hooks/useReducer"
 import PostList from "./hooks/postlist"
+import UseStateHook from "./hooks/usestatehook"
 
 function App() { 
   const[toggle, setToggle]=useState(false)
@@ -58,9 +58,10 @@ function App() {
 
 
 <Fetch/>
-  <UseRef/>*/}
+  <UseRef/>
 <UseReducer/>
-<Fetch/>
+<Fetch/>*/}
+<UseStateHook/>
 
 
 
